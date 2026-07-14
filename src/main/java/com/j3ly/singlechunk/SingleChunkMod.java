@@ -8,6 +8,6 @@ public class SingleChunkMod {
     public static final String MOD_ID = "singlechunk";
 
     public SingleChunkMod() {
-        MinecraftForge.EVENT_BUS.register(SingleChunkEvents.class);
+        MinecraftForge.EVENT_BUS.register(SingleChunkCommands.class);
     }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:overworld",
   "generator": {
-    "type": "singlechunk:single_chunk",
-    "biome": "minecraft:plains"
+    "type": "minecraft:normal",
+    "settings": "minecraft:overworld"
   }
 }
